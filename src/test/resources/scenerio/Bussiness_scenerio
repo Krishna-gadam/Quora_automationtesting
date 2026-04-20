@@ -1,0 +1,42 @@
+Bussiness Scenerio
+---------------------------
+
+
+1. Launch and Navigation
+Business Value: Validates that the application is accessible and loads correctly from the configured URL.
+
+Scenario: Open Quora homepage and confirm that the site is reachable.
+
+2. Search Functionality
+Business Value: Search is a core feature; if it fails, user engagement drops.
+
+Scenario: Enter “Testing” in the search bar, and verify that the results page shows “Results for Testing”.
+
+Outcome: Confirms that search results are consistent with user expectations.
+
+3. Authentication Flow
+Business Value: Sign‑in and sign‑up are critical entry points for user acquisition.
+
+Scenario:
+
+Click “Sign In” → ensures the link is functional.
+
+In the prompt, click “Sign up with email” → validates that the option is available.
+
+Verify that the “Sign Up” button is initially disabled → ensures proper validation before user input.
+
+Outcome: Confirms that authentication flows enforce correct business rules.
+
+4. Error Handling
+Business Value: Proper error messages improve usability and reduce support costs.
+
+Scenario: Enter an invalid email (abc@abc) and verify that the correct error message is displayed.
+
+Outcome: Confirms that the system prevents invalid sign‑ups and communicates clearly to the user.
+
+5. Closure
+Business Value: Ensures resources are released and no browser sessions remain open.
+
+Scenario: Close the browser after test completion.
+
+Outcome: Demonstrates good automation hygiene and resource management.

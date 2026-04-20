@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-13T11:33:03 IST" name="Default suite" finished-at="2026-04-13T11:34:17 IST" duration-ms="73648">
+    <groups>
+    </groups>
+    <test started-at="2026-04-13T11:33:03 IST" name="Default test" finished-at="2026-04-13T11:34:17 IST" duration-ms="73648">
+      <class name="Tests.Testingpage">
+        <test-method is-config="true" signature="Browser_Launch()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:33:03 IST" name="Browser_Launch" finished-at="2026-04-13T11:33:38 IST" duration-ms="34847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:33:38 IST" name="setupReport" finished-at="2026-04-13T11:33:39 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="Check_SignIn()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:33:39 IST" name="Check_SignIn" finished-at="2026-04-13T11:33:43 IST" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_SignIn -->
+        <test-method signature="Check_Text()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:33:43 IST" name="Check_Text" finished-at="2026-04-13T11:33:50 IST" depends-on-methods="Check_SignIn()" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Text -->
+        <test-method signature="Check_SignupButtonEnabled()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:33:50 IST" name="Check_SignupButtonEnabled" finished-at="2026-04-13T11:34:02 IST" depends-on-methods="Check_Text()" duration-ms="12670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_SignupButtonEnabled -->
+        <test-method signature="CheckTextforInvalidEmail()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:34:02 IST" name="CheckTextforInvalidEmail" finished-at="2026-04-13T11:34:06 IST" depends-on-methods="Check_SignupButtonEnabled()" duration-ms="3465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTextforInvalidEmail -->
+        <test-method is-config="true" signature="Browser_close()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:34:06 IST" name="Browser_close" finished-at="2026-04-13T11:34:17 IST" duration-ms="10609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_close -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Tests.Testingpage@44c03695]" started-at="2026-04-13T11:34:17 IST" name="flushReport" finished-at="2026-04-13T11:34:19 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Tests.Testingpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
